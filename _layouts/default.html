@@ -11,7 +11,7 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
 
-{% seo %}
+    {% seo %}
 
     {% include head-custom.html %}
   </head>
@@ -20,22 +20,27 @@
     <header>
       <div class="inner">
         <a href="{{ '/' | absolute_url }}">
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
+          <h1>Adam Bojek</h1>
         </a>
-        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-        {% if site.github.is_project_page %}
-          <a href="{{ site.github.repository_url }}" class="button"><small>View project on</small> GitHub</a>
-        {% endif %}
-        {% if site.github.is_user_page %}
-          <a href="{{ site.github.owner_url }}" class="button"><small>Follow me on</small> GitHub</a>
-        {% endif %}
+        <h2>Cybersecurity student at AGH University of Science and Technology</h2>
       </div>
     </header>
 
     <div id="content-wrapper">
       <div class="inner clearfix">
         <section id="main-content">
-          {{ content }}
+          <h2>About Me</h2>
+          <p>Welcome to my personal website. I am Adam Bojek, a cybersecurity student at AGH University of Science and Technology. Here, you will find information about my projects and interests.</p>
+
+          <h2>Projects</h2>
+          <ul>
+            <li><a href="#">Project 1</a> - Description of project 1.</li>
+            <li><a href="#">Project 2</a> - Description of project 2.</li>
+            <li><a href="#">Project 3</a> - Description of project 3.</li>
+          </ul>
+
+          <h2>Contact</h2>
+          <p>You can reach me at <a href="mailto:adam.bojek@example.com">adam.bojek@example.com</a>.</p>
         </section>
 
         <aside id="sidebar">
